@@ -478,16 +478,19 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">S</text>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:apple-keyboard-option"/>
 </g>
 <g transform="translate(196, 140)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">D</text>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:apple-keyboard-control"/>
 </g>
 <g transform="translate(252, 147)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">F</text>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:apple-keyboard-shift"/>
 </g>
 <g transform="translate(308, 147)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -508,21 +511,25 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">J</text>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:apple-keyboard-shift"/>
 </g>
 <g transform="translate(728, 140)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">K</text>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:apple-keyboard-control"/>
 </g>
 <g transform="translate(784, 147)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">L</text>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:apple-keyboard-option"/>
 </g>
 <g transform="translate(840, 168)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">;</text>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:apple-keyboard-command"/>
 <text x="0" y="-24" class="key shifted">:</text>
 </g>
 <g transform="translate(896, 168)" class="key enter keypos-38">
@@ -674,255 +681,32 @@ rect.held, rect.combo.held {
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-control"/>
 </g>
 <g class="combo combopos-0">
-<path d="M349,192 l34,84" class="combo"/>
-<path d="M349,192 l-34,-84" class="combo"/>
-<rect rx="6" ry="6" x="335" y="180" width="28" height="26" class="combo"/>
-<a href="#SYS">
-<text x="349" y="192" class="combo tap layer-activator">SYS</text>
-</a><text x="349" y="204" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-1">
-<path d="M575,192 l-34,84" class="combo"/>
-<path d="M575,192 l34,-84" class="combo"/>
-<rect rx="6" ry="6" x="561" y="180" width="28" height="26" class="combo"/>
-<a href="#SYS">
-<text x="575" y="192" class="combo tap layer-activator">SYS</text>
-</a><text x="575" y="204" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-2">
-<path d="M311,187 l-3,-77" class="combo"/>
-<path d="M311,187 l3,77" class="combo"/>
-<rect rx="6" ry="6" x="297" y="174" width="28" height="26" class="combo"/>
-<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="302" y="178" height="18" width="18.0" class="combo tap glyph mdi:toggle-switch"/>
-<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="304" y="183" height="15" width="15.0" class="combo hold glyph mdi:bluetooth"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="304" y="176" height="15" width="15.0" class="combo shifted glyph mdi:usb"/>
-</g>
-<g class="combo combopos-3">
-<path d="M613,187 l3,-77" class="combo"/>
-<path d="M613,187 l-3,77" class="combo"/>
-<rect rx="6" ry="6" x="599" y="174" width="28" height="26" class="combo"/>
-<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="604" y="178" height="18" width="18.0" class="combo tap glyph mdi:toggle-switch"/>
-<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="605" y="183" height="15" width="15.0" class="combo hold glyph mdi:bluetooth"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="605" y="176" height="15" width="15.0" class="combo shifted glyph mdi:usb"/>
-</g>
-<g class="combo combopos-4">
-<path d="M641,187 l-25,78" class="combo"/>
-<path d="M641,187 l25,-78" class="combo"/>
-<rect rx="6" ry="6" x="627" y="174" width="28" height="26" class="combo"/>
-<text x="641" y="198" class="combo hold">1</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="633" y="176" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-5">
-<path d="M725,226 l-99,49" class="combo"/>
-<path d="M725,226 l99,-49" class="combo"/>
-<rect rx="6" ry="6" x="711" y="213" width="28" height="26" class="combo"/>
-<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="716" y="217" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
-</g>
-<g class="combo combopos-6">
-<path d="M669,184 l-50,84" class="combo"/>
-<path d="M669,184 l50,-84" class="combo"/>
-<rect rx="6" ry="6" x="655" y="171" width="28" height="26" class="combo"/>
-<text x="669" y="195" class="combo hold">2</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="661" y="173" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-7">
-<path d="M697,187 l-75,82" class="combo"/>
-<path d="M697,187 l75,-82" class="combo"/>
-<rect rx="6" ry="6" x="683" y="174" width="28" height="26" class="combo"/>
-<text x="697" y="198" class="combo hold">3</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="689" y="176" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-8">
-<path d="M725,198 l-100,74" class="combo"/>
-<path d="M725,198 l100,-74" class="combo"/>
-<rect rx="6" ry="6" x="711" y="185" width="28" height="26" class="combo"/>
-<text x="725" y="209" class="combo hold">4</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="717" y="187" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo bootloader combopos-9">
-<path d="M258,269 l-100,-9" class="combo"/>
-<path d="M258,269 l-44,-12" class="combo"/>
-<path d="M258,269 l112,21" class="combo"/>
-<path d="M258,269 l38,9" class="combo"/>
-<rect rx="6" ry="6" x="244" y="256" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="249" y="260" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo bootloader combopos-10">
-<path d="M666,269 l-112,21" class="combo"/>
-<path d="M666,269 l-38,9" class="combo"/>
-<path d="M666,269 l44,-12" class="combo"/>
-<path d="M666,269 l100,-9" class="combo"/>
-<rect rx="6" ry="6" x="652" y="256" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="657" y="260" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo combopos-11">
-<rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="635" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
-</g>
-<g class="combo combopos-12">
-<rect rx="6" ry="6" x="686" y="186" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="691" y="190" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
-</g>
-<g class="combo combopos-13">
-<path d="M28,150 l0,56" class="combo"/>
-<path d="M28,150 l0,-75" class="combo"/>
-<rect rx="6" ry="6" x="14" y="137" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="19" y="141" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
-<g class="combo combopos-14">
-<path d="M84,168 l0,-37" class="combo"/>
-<path d="M84,168 l0,37" class="combo"/>
-<rect rx="6" ry="6" x="70" y="155" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="75" y="159" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
-<g class="combo combopos-15">
-<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
-<text x="168" y="88" class="combo tap">Alt+F4</text>
-</g>
-<g class="combo combopos-16">
-<rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
-<text x="112" y="102" class="combo tap">F2</text>
-</g>
-<g class="combo combopos-17">
-<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
-<text x="224" y="88" class="combo tap">F5</text>
-</g>
-<g class="combo combopos-18">
-<path d="M196,257 l-37,2" class="combo"/>
-<path d="M196,257 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="244" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="187" y="248" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-19">
-<path d="M728,257 l-37,2" class="combo"/>
-<path d="M728,257 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="714" y="244" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="719" y="248" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-20">
-<rect rx="6" ry="6" x="602" y="106" width="28" height="26" class="combo"/>
-<text x="616" y="119" class="combo tap">-</text>
-<text x="616" y="108" class="combo shifted">_</text>
-</g>
-<g class="combo combopos-21">
-<rect rx="6" ry="6" x="658" y="106" width="28" height="26" class="combo"/>
-<text x="672" y="119" class="combo tap">_</text>
-</g>
-<g class="combo combopos-22">
-<rect rx="6" ry="6" x="714" y="99" width="28" height="26" class="combo"/>
-<text x="728" y="112" class="combo tap">=</text>
-<text x="728" y="101" class="combo shifted">+</text>
-</g>
-<g class="combo combopos-23">
-<rect rx="6" ry="6" x="770" y="106" width="28" height="26" class="combo"/>
-<text x="784" y="119" class="combo tap">+</text>
-</g>
-<g class="combo combopos-24">
-<path d="M196,154 l44,-49" class="combo"/>
-<path d="M196,154 l37,-5" class="combo"/>
-<path d="M196,154 l-96,60" class="combo"/>
-<rect rx="6" ry="6" x="182" y="141" width="28" height="26" class="combo"/>
-<text x="196" y="154" class="combo tap"><tspan style="font-size: 75%">&amp;BRACKET</tspan></text>
-</g>
-<g class="combo combopos-25">
 <path d="M308,147 l0,-37" class="combo"/>
 <path d="M308,147 l0,37" class="combo"/>
 <rect rx="6" ry="6" x="294" y="134" width="28" height="26" class="combo"/>
 <text x="308" y="147" class="combo tap"><tspan style="font-size: 60%">&amp;PARENTHE…</tspan></text>
 </g>
-<g class="combo combopos-26">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
 <text x="252" y="119" class="combo tap">(</text>
 </g>
-<g class="combo combopos-27">
+<g class="combo combopos-2">
 <rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
 <text x="308" y="119" class="combo tap">)</text>
 </g>
-<g class="combo combopos-28">
-<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
-<text x="140" y="119" class="combo tap">[</text>
-<text x="140" y="108" class="combo shifted">{</text>
-</g>
-<g class="combo combopos-29">
-<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
-<text x="196" y="112" class="combo tap">]</text>
-<text x="196" y="101" class="combo shifted">}</text>
-</g>
-<g class="combo combopos-30">
-<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
-<text x="112" y="214" class="combo tap">Ctl+Z</text>
-</g>
-<g class="combo combopos-31">
-<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
-<text x="168" y="200" class="combo tap">Ctl+X</text>
-</g>
-<g class="combo combopos-32">
-<rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
-<text x="224" y="200" class="combo tap">Ctl+C</text>
-</g>
-<g class="combo combopos-33">
-<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
-<text x="280" y="203" class="combo tap">Ctl+V</text>
-</g>
-<g class="combo combopos-34">
-<rect rx="6" ry="6" x="294" y="162" width="28" height="26" class="combo"/>
-<text x="308" y="175" class="combo tap">
-<tspan x="308" dy="-0.6em">Alt+</tspan><tspan x="308" dy="1.2em">Ctl+V</tspan>
-</text>
-</g>
-<g class="combo combopos-35">
-<path d="M252,145 l-37,-3" class="combo"/>
-<path d="M252,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="238" y="132" width="28" height="26" class="combo"/>
-<text x="252" y="145" class="combo tap">Ctl+F</text>
-</g>
-<g class="combo combopos-36">
-<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
-<text x="168" y="144" class="combo tap">Ctl+S</text>
-</g>
-<g class="combo combopos-37">
-<path d="M140,154 l38,-10" class="combo"/>
-<path d="M140,154 l-38,10" class="combo"/>
-<rect rx="6" ry="6" x="126" y="141" width="28" height="26" class="combo"/>
-<text x="140" y="154" class="combo tap">Ctl+A</text>
-</g>
-<g class="combo combopos-38">
-<path d="M196,145 l-37,2" class="combo"/>
-<path d="M196,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
-<text x="196" y="145" class="combo tap">
-<tspan x="196" dy="-0.6em">Ctl+</tspan><tspan x="196" dy="1.2em">Alt+F</tspan>
-</text>
-</g>
-<g class="combo combopos-39">
-<path d="M226,179 l-68,-26" class="combo"/>
-<path d="M226,179 l77,90" class="combo"/>
-<rect rx="6" ry="6" x="212" y="166" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="217" y="170" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
-</g>
-<g class="combo combopos-40">
-<path d="M224,159 l-66,-10" class="combo"/>
-<path d="M224,159 l67,35" class="combo"/>
-<rect rx="6" ry="6" x="210" y="146" width="28" height="26" class="combo"/>
-<text x="224" y="159" class="combo tap">Meh+B</text>
-</g>
-<g class="combo combopos-41">
-<rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
-<text x="168" y="116" class="combo tap">Ctl+W</text>
-</g>
-<g class="combo combopos-42">
-<path d="M252,116 l-39,17" class="combo"/>
-<path d="M252,116 l39,-17" class="combo"/>
-<rect rx="6" ry="6" x="238" y="102" width="28" height="26" class="combo"/>
-<text x="252" y="116" class="combo tap">Ctl+T</text>
-</g>
-<g class="combo combopos-43">
+<g class="combo combopos-3">
 <path d="M159,154 l-56,11" class="combo"/>
 <path d="M159,154 l75,-6" class="combo"/>
 <rect rx="6" ry="6" x="145" y="141" width="28" height="26" class="combo"/>
 <text x="159" y="154" class="combo tap">
 <tspan x="159" dy="-0.6em">Gui+</tspan><tspan x="159" dy="1.2em">Sft+S</tspan>
 </text>
+</g>
+<g class="combo combopos-4">
+<path d="M140,152 l-38,11" class="combo"/>
+<path d="M140,152 l38,-8" class="combo"/>
+<rect rx="6" ry="6" x="126" y="139" width="28" height="26" class="combo"/>
+<text x="140" y="152" class="combo tap"><tspan style="font-size: 60%">&amp;sql_sele…</tspan></text>
 </g>
 </g>
 </g>
@@ -1256,249 +1040,20 @@ rect.held, rect.combo.held {
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
 <g class="combo combopos-0">
-<path d="M349,192 l34,84" class="combo"/>
-<path d="M349,192 l-34,-84" class="combo"/>
-<rect rx="6" ry="6" x="335" y="180" width="28" height="26" class="combo"/>
-<a href="#SYS">
-<text x="349" y="192" class="combo tap layer-activator">SYS</text>
-</a><text x="349" y="204" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-1">
-<path d="M575,192 l-34,84" class="combo"/>
-<path d="M575,192 l34,-84" class="combo"/>
-<rect rx="6" ry="6" x="561" y="180" width="28" height="26" class="combo"/>
-<a href="#SYS">
-<text x="575" y="192" class="combo tap layer-activator">SYS</text>
-</a><text x="575" y="204" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-2">
-<path d="M311,187 l-3,-77" class="combo"/>
-<path d="M311,187 l3,77" class="combo"/>
-<rect rx="6" ry="6" x="297" y="174" width="28" height="26" class="combo"/>
-<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="302" y="178" height="18" width="18.0" class="combo tap glyph mdi:toggle-switch"/>
-<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="304" y="183" height="15" width="15.0" class="combo hold glyph mdi:bluetooth"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="304" y="176" height="15" width="15.0" class="combo shifted glyph mdi:usb"/>
-</g>
-<g class="combo combopos-3">
-<path d="M613,187 l3,-77" class="combo"/>
-<path d="M613,187 l-3,77" class="combo"/>
-<rect rx="6" ry="6" x="599" y="174" width="28" height="26" class="combo"/>
-<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="604" y="178" height="18" width="18.0" class="combo tap glyph mdi:toggle-switch"/>
-<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="605" y="183" height="15" width="15.0" class="combo hold glyph mdi:bluetooth"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="605" y="176" height="15" width="15.0" class="combo shifted glyph mdi:usb"/>
-</g>
-<g class="combo combopos-4">
-<path d="M641,187 l-25,78" class="combo"/>
-<path d="M641,187 l25,-78" class="combo"/>
-<rect rx="6" ry="6" x="627" y="174" width="28" height="26" class="combo"/>
-<text x="641" y="198" class="combo hold">1</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="633" y="176" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-5">
-<path d="M725,226 l-99,49" class="combo"/>
-<path d="M725,226 l99,-49" class="combo"/>
-<rect rx="6" ry="6" x="711" y="213" width="28" height="26" class="combo"/>
-<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="716" y="217" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
-</g>
-<g class="combo combopos-6">
-<path d="M669,184 l-50,84" class="combo"/>
-<path d="M669,184 l50,-84" class="combo"/>
-<rect rx="6" ry="6" x="655" y="171" width="28" height="26" class="combo"/>
-<text x="669" y="195" class="combo hold">2</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="661" y="173" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-7">
-<path d="M697,187 l-75,82" class="combo"/>
-<path d="M697,187 l75,-82" class="combo"/>
-<rect rx="6" ry="6" x="683" y="174" width="28" height="26" class="combo"/>
-<text x="697" y="198" class="combo hold">3</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="689" y="176" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-8">
-<path d="M725,198 l-100,74" class="combo"/>
-<path d="M725,198 l100,-74" class="combo"/>
-<rect rx="6" ry="6" x="711" y="185" width="28" height="26" class="combo"/>
-<text x="725" y="209" class="combo hold">4</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="717" y="187" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo bootloader combopos-9">
-<path d="M258,269 l-100,-9" class="combo"/>
-<path d="M258,269 l-44,-12" class="combo"/>
-<path d="M258,269 l112,21" class="combo"/>
-<path d="M258,269 l38,9" class="combo"/>
-<rect rx="6" ry="6" x="244" y="256" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="249" y="260" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo bootloader combopos-10">
-<path d="M666,269 l-112,21" class="combo"/>
-<path d="M666,269 l-38,9" class="combo"/>
-<path d="M666,269 l44,-12" class="combo"/>
-<path d="M666,269 l100,-9" class="combo"/>
-<rect rx="6" ry="6" x="652" y="256" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="657" y="260" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo combopos-11">
-<rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="635" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
-</g>
-<g class="combo combopos-12">
-<rect rx="6" ry="6" x="686" y="186" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="691" y="190" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
-</g>
-<g class="combo combopos-13">
-<path d="M28,150 l0,56" class="combo"/>
-<path d="M28,150 l0,-75" class="combo"/>
-<rect rx="6" ry="6" x="14" y="137" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="19" y="141" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
-<g class="combo combopos-14">
-<path d="M84,168 l0,-37" class="combo"/>
-<path d="M84,168 l0,37" class="combo"/>
-<rect rx="6" ry="6" x="70" y="155" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="75" y="159" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
-<g class="combo combopos-15">
-<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
-<text x="168" y="88" class="combo tap">Alt+F4</text>
-</g>
-<g class="combo combopos-16">
-<rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
-<text x="112" y="102" class="combo tap">F2</text>
-</g>
-<g class="combo combopos-17">
-<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
-<text x="224" y="88" class="combo tap">F5</text>
-</g>
-<g class="combo combopos-18">
-<path d="M196,257 l-37,2" class="combo"/>
-<path d="M196,257 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="244" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="187" y="248" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-19">
-<path d="M728,257 l-37,2" class="combo"/>
-<path d="M728,257 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="714" y="244" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="719" y="248" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-20">
-<rect rx="6" ry="6" x="602" y="106" width="28" height="26" class="combo"/>
-<text x="616" y="119" class="combo tap">-</text>
-<text x="616" y="108" class="combo shifted">_</text>
-</g>
-<g class="combo combopos-21">
-<rect rx="6" ry="6" x="658" y="106" width="28" height="26" class="combo"/>
-<text x="672" y="119" class="combo tap">_</text>
-</g>
-<g class="combo combopos-22">
-<rect rx="6" ry="6" x="714" y="99" width="28" height="26" class="combo"/>
-<text x="728" y="112" class="combo tap">=</text>
-<text x="728" y="101" class="combo shifted">+</text>
-</g>
-<g class="combo combopos-23">
-<rect rx="6" ry="6" x="770" y="106" width="28" height="26" class="combo"/>
-<text x="784" y="119" class="combo tap">+</text>
-</g>
-<g class="combo combopos-24">
-<path d="M196,154 l44,-49" class="combo"/>
-<path d="M196,154 l37,-5" class="combo"/>
-<path d="M196,154 l-96,60" class="combo"/>
-<rect rx="6" ry="6" x="182" y="141" width="28" height="26" class="combo"/>
-<text x="196" y="154" class="combo tap"><tspan style="font-size: 75%">&amp;BRACKET</tspan></text>
-</g>
-<g class="combo combopos-25">
 <path d="M308,147 l0,-37" class="combo"/>
 <path d="M308,147 l0,37" class="combo"/>
 <rect rx="6" ry="6" x="294" y="134" width="28" height="26" class="combo"/>
 <text x="308" y="147" class="combo tap"><tspan style="font-size: 60%">&amp;PARENTHE…</tspan></text>
 </g>
-<g class="combo combopos-26">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
 <text x="252" y="119" class="combo tap">(</text>
 </g>
-<g class="combo combopos-27">
+<g class="combo combopos-2">
 <rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
 <text x="308" y="119" class="combo tap">)</text>
 </g>
-<g class="combo combopos-28">
-<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
-<text x="140" y="119" class="combo tap">[</text>
-<text x="140" y="108" class="combo shifted">{</text>
-</g>
-<g class="combo combopos-29">
-<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
-<text x="196" y="112" class="combo tap">]</text>
-<text x="196" y="101" class="combo shifted">}</text>
-</g>
-<g class="combo combopos-30">
-<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
-<text x="112" y="214" class="combo tap">Ctl+Z</text>
-</g>
-<g class="combo combopos-31">
-<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
-<text x="168" y="200" class="combo tap">Ctl+X</text>
-</g>
-<g class="combo combopos-32">
-<rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
-<text x="224" y="200" class="combo tap">Ctl+C</text>
-</g>
-<g class="combo combopos-33">
-<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
-<text x="280" y="203" class="combo tap">Ctl+V</text>
-</g>
-<g class="combo combopos-34">
-<rect rx="6" ry="6" x="294" y="162" width="28" height="26" class="combo"/>
-<text x="308" y="175" class="combo tap">
-<tspan x="308" dy="-0.6em">Alt+</tspan><tspan x="308" dy="1.2em">Ctl+V</tspan>
-</text>
-</g>
-<g class="combo combopos-35">
-<path d="M252,145 l-37,-3" class="combo"/>
-<path d="M252,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="238" y="132" width="28" height="26" class="combo"/>
-<text x="252" y="145" class="combo tap">Ctl+F</text>
-</g>
-<g class="combo combopos-36">
-<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
-<text x="168" y="144" class="combo tap">Ctl+S</text>
-</g>
-<g class="combo combopos-37">
-<path d="M140,154 l38,-10" class="combo"/>
-<path d="M140,154 l-38,10" class="combo"/>
-<rect rx="6" ry="6" x="126" y="141" width="28" height="26" class="combo"/>
-<text x="140" y="154" class="combo tap">Ctl+A</text>
-</g>
-<g class="combo combopos-38">
-<path d="M196,145 l-37,2" class="combo"/>
-<path d="M196,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
-<text x="196" y="145" class="combo tap">
-<tspan x="196" dy="-0.6em">Ctl+</tspan><tspan x="196" dy="1.2em">Alt+F</tspan>
-</text>
-</g>
-<g class="combo combopos-39">
-<path d="M226,179 l-68,-26" class="combo"/>
-<path d="M226,179 l77,90" class="combo"/>
-<rect rx="6" ry="6" x="212" y="166" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="217" y="170" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
-</g>
-<g class="combo combopos-40">
-<path d="M224,159 l-66,-10" class="combo"/>
-<path d="M224,159 l67,35" class="combo"/>
-<rect rx="6" ry="6" x="210" y="146" width="28" height="26" class="combo"/>
-<text x="224" y="159" class="combo tap">Meh+B</text>
-</g>
-<g class="combo combopos-41">
-<rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
-<text x="168" y="116" class="combo tap">Ctl+W</text>
-</g>
-<g class="combo combopos-42">
-<path d="M252,116 l-39,17" class="combo"/>
-<path d="M252,116 l39,-17" class="combo"/>
-<rect rx="6" ry="6" x="238" y="102" width="28" height="26" class="combo"/>
-<text x="252" y="116" class="combo tap">Ctl+T</text>
-</g>
-<g class="combo combopos-43">
+<g class="combo combopos-3">
 <path d="M159,154 l-56,11" class="combo"/>
 <path d="M159,154 l75,-6" class="combo"/>
 <rect rx="6" ry="6" x="145" y="141" width="28" height="26" class="combo"/>
@@ -1849,249 +1404,20 @@ rect.held, rect.combo.held {
 <text x="0" y="-24" class="key shifted">&gt;</text>
 </g>
 <g class="combo combopos-0">
-<path d="M349,192 l34,84" class="combo"/>
-<path d="M349,192 l-34,-84" class="combo"/>
-<rect rx="6" ry="6" x="335" y="180" width="28" height="26" class="combo"/>
-<a href="#SYS">
-<text x="349" y="192" class="combo tap layer-activator">SYS</text>
-</a><text x="349" y="204" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-1">
-<path d="M575,192 l-34,84" class="combo"/>
-<path d="M575,192 l34,-84" class="combo"/>
-<rect rx="6" ry="6" x="561" y="180" width="28" height="26" class="combo"/>
-<a href="#SYS">
-<text x="575" y="192" class="combo tap layer-activator">SYS</text>
-</a><text x="575" y="204" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-2">
-<path d="M311,187 l-3,-77" class="combo"/>
-<path d="M311,187 l3,77" class="combo"/>
-<rect rx="6" ry="6" x="297" y="174" width="28" height="26" class="combo"/>
-<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="302" y="178" height="18" width="18.0" class="combo tap glyph mdi:toggle-switch"/>
-<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="304" y="183" height="15" width="15.0" class="combo hold glyph mdi:bluetooth"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="304" y="176" height="15" width="15.0" class="combo shifted glyph mdi:usb"/>
-</g>
-<g class="combo combopos-3">
-<path d="M613,187 l3,-77" class="combo"/>
-<path d="M613,187 l-3,77" class="combo"/>
-<rect rx="6" ry="6" x="599" y="174" width="28" height="26" class="combo"/>
-<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="604" y="178" height="18" width="18.0" class="combo tap glyph mdi:toggle-switch"/>
-<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="605" y="183" height="15" width="15.0" class="combo hold glyph mdi:bluetooth"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="605" y="176" height="15" width="15.0" class="combo shifted glyph mdi:usb"/>
-</g>
-<g class="combo combopos-4">
-<path d="M641,187 l-25,78" class="combo"/>
-<path d="M641,187 l25,-78" class="combo"/>
-<rect rx="6" ry="6" x="627" y="174" width="28" height="26" class="combo"/>
-<text x="641" y="198" class="combo hold">1</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="633" y="176" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-5">
-<path d="M725,226 l-99,49" class="combo"/>
-<path d="M725,226 l99,-49" class="combo"/>
-<rect rx="6" ry="6" x="711" y="213" width="28" height="26" class="combo"/>
-<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="716" y="217" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
-</g>
-<g class="combo combopos-6">
-<path d="M669,184 l-50,84" class="combo"/>
-<path d="M669,184 l50,-84" class="combo"/>
-<rect rx="6" ry="6" x="655" y="171" width="28" height="26" class="combo"/>
-<text x="669" y="195" class="combo hold">2</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="661" y="173" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-7">
-<path d="M697,187 l-75,82" class="combo"/>
-<path d="M697,187 l75,-82" class="combo"/>
-<rect rx="6" ry="6" x="683" y="174" width="28" height="26" class="combo"/>
-<text x="697" y="198" class="combo hold">3</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="689" y="176" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-8">
-<path d="M725,198 l-100,74" class="combo"/>
-<path d="M725,198 l100,-74" class="combo"/>
-<rect rx="6" ry="6" x="711" y="185" width="28" height="26" class="combo"/>
-<text x="725" y="209" class="combo hold">4</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="717" y="187" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo bootloader combopos-9">
-<path d="M258,269 l-100,-9" class="combo"/>
-<path d="M258,269 l-44,-12" class="combo"/>
-<path d="M258,269 l112,21" class="combo"/>
-<path d="M258,269 l38,9" class="combo"/>
-<rect rx="6" ry="6" x="244" y="256" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="249" y="260" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo bootloader combopos-10">
-<path d="M666,269 l-112,21" class="combo"/>
-<path d="M666,269 l-38,9" class="combo"/>
-<path d="M666,269 l44,-12" class="combo"/>
-<path d="M666,269 l100,-9" class="combo"/>
-<rect rx="6" ry="6" x="652" y="256" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="657" y="260" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo combopos-11">
-<rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="635" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
-</g>
-<g class="combo combopos-12">
-<rect rx="6" ry="6" x="686" y="186" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="691" y="190" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
-</g>
-<g class="combo combopos-13">
-<path d="M28,150 l0,56" class="combo"/>
-<path d="M28,150 l0,-75" class="combo"/>
-<rect rx="6" ry="6" x="14" y="137" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="19" y="141" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
-<g class="combo combopos-14">
-<path d="M84,168 l0,-37" class="combo"/>
-<path d="M84,168 l0,37" class="combo"/>
-<rect rx="6" ry="6" x="70" y="155" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="75" y="159" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
-<g class="combo combopos-15">
-<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
-<text x="168" y="88" class="combo tap">Alt+F4</text>
-</g>
-<g class="combo combopos-16">
-<rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
-<text x="112" y="102" class="combo tap">F2</text>
-</g>
-<g class="combo combopos-17">
-<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
-<text x="224" y="88" class="combo tap">F5</text>
-</g>
-<g class="combo combopos-18">
-<path d="M196,257 l-37,2" class="combo"/>
-<path d="M196,257 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="244" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="187" y="248" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-19">
-<path d="M728,257 l-37,2" class="combo"/>
-<path d="M728,257 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="714" y="244" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="719" y="248" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-20">
-<rect rx="6" ry="6" x="602" y="106" width="28" height="26" class="combo"/>
-<text x="616" y="119" class="combo tap">-</text>
-<text x="616" y="108" class="combo shifted">_</text>
-</g>
-<g class="combo combopos-21">
-<rect rx="6" ry="6" x="658" y="106" width="28" height="26" class="combo"/>
-<text x="672" y="119" class="combo tap">_</text>
-</g>
-<g class="combo combopos-22">
-<rect rx="6" ry="6" x="714" y="99" width="28" height="26" class="combo"/>
-<text x="728" y="112" class="combo tap">=</text>
-<text x="728" y="101" class="combo shifted">+</text>
-</g>
-<g class="combo combopos-23">
-<rect rx="6" ry="6" x="770" y="106" width="28" height="26" class="combo"/>
-<text x="784" y="119" class="combo tap">+</text>
-</g>
-<g class="combo combopos-24">
-<path d="M196,154 l44,-49" class="combo"/>
-<path d="M196,154 l37,-5" class="combo"/>
-<path d="M196,154 l-96,60" class="combo"/>
-<rect rx="6" ry="6" x="182" y="141" width="28" height="26" class="combo"/>
-<text x="196" y="154" class="combo tap"><tspan style="font-size: 75%">&amp;BRACKET</tspan></text>
-</g>
-<g class="combo combopos-25">
 <path d="M308,147 l0,-37" class="combo"/>
 <path d="M308,147 l0,37" class="combo"/>
 <rect rx="6" ry="6" x="294" y="134" width="28" height="26" class="combo"/>
 <text x="308" y="147" class="combo tap"><tspan style="font-size: 60%">&amp;PARENTHE…</tspan></text>
 </g>
-<g class="combo combopos-26">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
 <text x="252" y="119" class="combo tap">(</text>
 </g>
-<g class="combo combopos-27">
+<g class="combo combopos-2">
 <rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
 <text x="308" y="119" class="combo tap">)</text>
 </g>
-<g class="combo combopos-28">
-<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
-<text x="140" y="119" class="combo tap">[</text>
-<text x="140" y="108" class="combo shifted">{</text>
-</g>
-<g class="combo combopos-29">
-<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
-<text x="196" y="112" class="combo tap">]</text>
-<text x="196" y="101" class="combo shifted">}</text>
-</g>
-<g class="combo combopos-30">
-<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
-<text x="112" y="214" class="combo tap">Ctl+Z</text>
-</g>
-<g class="combo combopos-31">
-<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
-<text x="168" y="200" class="combo tap">Ctl+X</text>
-</g>
-<g class="combo combopos-32">
-<rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
-<text x="224" y="200" class="combo tap">Ctl+C</text>
-</g>
-<g class="combo combopos-33">
-<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
-<text x="280" y="203" class="combo tap">Ctl+V</text>
-</g>
-<g class="combo combopos-34">
-<rect rx="6" ry="6" x="294" y="162" width="28" height="26" class="combo"/>
-<text x="308" y="175" class="combo tap">
-<tspan x="308" dy="-0.6em">Alt+</tspan><tspan x="308" dy="1.2em">Ctl+V</tspan>
-</text>
-</g>
-<g class="combo combopos-35">
-<path d="M252,145 l-37,-3" class="combo"/>
-<path d="M252,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="238" y="132" width="28" height="26" class="combo"/>
-<text x="252" y="145" class="combo tap">Ctl+F</text>
-</g>
-<g class="combo combopos-36">
-<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
-<text x="168" y="144" class="combo tap">Ctl+S</text>
-</g>
-<g class="combo combopos-37">
-<path d="M140,154 l38,-10" class="combo"/>
-<path d="M140,154 l-38,10" class="combo"/>
-<rect rx="6" ry="6" x="126" y="141" width="28" height="26" class="combo"/>
-<text x="140" y="154" class="combo tap">Ctl+A</text>
-</g>
-<g class="combo combopos-38">
-<path d="M196,145 l-37,2" class="combo"/>
-<path d="M196,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
-<text x="196" y="145" class="combo tap">
-<tspan x="196" dy="-0.6em">Ctl+</tspan><tspan x="196" dy="1.2em">Alt+F</tspan>
-</text>
-</g>
-<g class="combo combopos-39">
-<path d="M226,179 l-68,-26" class="combo"/>
-<path d="M226,179 l77,90" class="combo"/>
-<rect rx="6" ry="6" x="212" y="166" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="217" y="170" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
-</g>
-<g class="combo combopos-40">
-<path d="M224,159 l-66,-10" class="combo"/>
-<path d="M224,159 l67,35" class="combo"/>
-<rect rx="6" ry="6" x="210" y="146" width="28" height="26" class="combo"/>
-<text x="224" y="159" class="combo tap">Meh+B</text>
-</g>
-<g class="combo combopos-41">
-<rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
-<text x="168" y="116" class="combo tap">Ctl+W</text>
-</g>
-<g class="combo combopos-42">
-<path d="M252,116 l-39,17" class="combo"/>
-<path d="M252,116 l39,-17" class="combo"/>
-<rect rx="6" ry="6" x="238" y="102" width="28" height="26" class="combo"/>
-<text x="252" y="116" class="combo tap">Ctl+T</text>
-</g>
-<g class="combo combopos-43">
+<g class="combo combopos-3">
 <path d="M159,154 l-56,11" class="combo"/>
 <path d="M159,154 l75,-6" class="combo"/>
 <rect rx="6" ry="6" x="145" y="141" width="28" height="26" class="combo"/>
@@ -2445,249 +1771,20 @@ rect.held, rect.combo.held {
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
 <g class="combo combopos-0">
-<path d="M349,192 l34,84" class="combo"/>
-<path d="M349,192 l-34,-84" class="combo"/>
-<rect rx="6" ry="6" x="335" y="180" width="28" height="26" class="combo"/>
-<a href="#SYS">
-<text x="349" y="192" class="combo tap layer-activator">SYS</text>
-</a><text x="349" y="204" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-1">
-<path d="M575,192 l-34,84" class="combo"/>
-<path d="M575,192 l34,-84" class="combo"/>
-<rect rx="6" ry="6" x="561" y="180" width="28" height="26" class="combo"/>
-<a href="#SYS">
-<text x="575" y="192" class="combo tap layer-activator">SYS</text>
-</a><text x="575" y="204" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-2">
-<path d="M311,187 l-3,-77" class="combo"/>
-<path d="M311,187 l3,77" class="combo"/>
-<rect rx="6" ry="6" x="297" y="174" width="28" height="26" class="combo"/>
-<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="302" y="178" height="18" width="18.0" class="combo tap glyph mdi:toggle-switch"/>
-<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="304" y="183" height="15" width="15.0" class="combo hold glyph mdi:bluetooth"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="304" y="176" height="15" width="15.0" class="combo shifted glyph mdi:usb"/>
-</g>
-<g class="combo combopos-3">
-<path d="M613,187 l3,-77" class="combo"/>
-<path d="M613,187 l-3,77" class="combo"/>
-<rect rx="6" ry="6" x="599" y="174" width="28" height="26" class="combo"/>
-<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="604" y="178" height="18" width="18.0" class="combo tap glyph mdi:toggle-switch"/>
-<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="605" y="183" height="15" width="15.0" class="combo hold glyph mdi:bluetooth"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="605" y="176" height="15" width="15.0" class="combo shifted glyph mdi:usb"/>
-</g>
-<g class="combo combopos-4">
-<path d="M641,187 l-25,78" class="combo"/>
-<path d="M641,187 l25,-78" class="combo"/>
-<rect rx="6" ry="6" x="627" y="174" width="28" height="26" class="combo"/>
-<text x="641" y="198" class="combo hold">1</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="633" y="176" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-5">
-<path d="M725,226 l-99,49" class="combo"/>
-<path d="M725,226 l99,-49" class="combo"/>
-<rect rx="6" ry="6" x="711" y="213" width="28" height="26" class="combo"/>
-<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="716" y="217" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
-</g>
-<g class="combo combopos-6">
-<path d="M669,184 l-50,84" class="combo"/>
-<path d="M669,184 l50,-84" class="combo"/>
-<rect rx="6" ry="6" x="655" y="171" width="28" height="26" class="combo"/>
-<text x="669" y="195" class="combo hold">2</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="661" y="173" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-7">
-<path d="M697,187 l-75,82" class="combo"/>
-<path d="M697,187 l75,-82" class="combo"/>
-<rect rx="6" ry="6" x="683" y="174" width="28" height="26" class="combo"/>
-<text x="697" y="198" class="combo hold">3</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="689" y="176" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-8">
-<path d="M725,198 l-100,74" class="combo"/>
-<path d="M725,198 l100,-74" class="combo"/>
-<rect rx="6" ry="6" x="711" y="185" width="28" height="26" class="combo"/>
-<text x="725" y="209" class="combo hold">4</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="717" y="187" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo bootloader combopos-9">
-<path d="M258,269 l-100,-9" class="combo"/>
-<path d="M258,269 l-44,-12" class="combo"/>
-<path d="M258,269 l112,21" class="combo"/>
-<path d="M258,269 l38,9" class="combo"/>
-<rect rx="6" ry="6" x="244" y="256" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="249" y="260" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo bootloader combopos-10">
-<path d="M666,269 l-112,21" class="combo"/>
-<path d="M666,269 l-38,9" class="combo"/>
-<path d="M666,269 l44,-12" class="combo"/>
-<path d="M666,269 l100,-9" class="combo"/>
-<rect rx="6" ry="6" x="652" y="256" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="657" y="260" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo combopos-11">
-<rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="635" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
-</g>
-<g class="combo combopos-12">
-<rect rx="6" ry="6" x="686" y="186" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="691" y="190" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
-</g>
-<g class="combo combopos-13">
-<path d="M28,150 l0,56" class="combo"/>
-<path d="M28,150 l0,-75" class="combo"/>
-<rect rx="6" ry="6" x="14" y="137" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="19" y="141" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
-<g class="combo combopos-14">
-<path d="M84,168 l0,-37" class="combo"/>
-<path d="M84,168 l0,37" class="combo"/>
-<rect rx="6" ry="6" x="70" y="155" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="75" y="159" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
-<g class="combo combopos-15">
-<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
-<text x="168" y="88" class="combo tap">Alt+F4</text>
-</g>
-<g class="combo combopos-16">
-<rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
-<text x="112" y="102" class="combo tap">F2</text>
-</g>
-<g class="combo combopos-17">
-<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
-<text x="224" y="88" class="combo tap">F5</text>
-</g>
-<g class="combo combopos-18">
-<path d="M196,257 l-37,2" class="combo"/>
-<path d="M196,257 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="244" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="187" y="248" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-19">
-<path d="M728,257 l-37,2" class="combo"/>
-<path d="M728,257 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="714" y="244" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="719" y="248" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-20">
-<rect rx="6" ry="6" x="602" y="106" width="28" height="26" class="combo"/>
-<text x="616" y="119" class="combo tap">-</text>
-<text x="616" y="108" class="combo shifted">_</text>
-</g>
-<g class="combo combopos-21">
-<rect rx="6" ry="6" x="658" y="106" width="28" height="26" class="combo"/>
-<text x="672" y="119" class="combo tap">_</text>
-</g>
-<g class="combo combopos-22">
-<rect rx="6" ry="6" x="714" y="99" width="28" height="26" class="combo"/>
-<text x="728" y="112" class="combo tap">=</text>
-<text x="728" y="101" class="combo shifted">+</text>
-</g>
-<g class="combo combopos-23">
-<rect rx="6" ry="6" x="770" y="106" width="28" height="26" class="combo"/>
-<text x="784" y="119" class="combo tap">+</text>
-</g>
-<g class="combo combopos-24">
-<path d="M196,154 l44,-49" class="combo"/>
-<path d="M196,154 l37,-5" class="combo"/>
-<path d="M196,154 l-96,60" class="combo"/>
-<rect rx="6" ry="6" x="182" y="141" width="28" height="26" class="combo"/>
-<text x="196" y="154" class="combo tap"><tspan style="font-size: 75%">&amp;BRACKET</tspan></text>
-</g>
-<g class="combo combopos-25">
 <path d="M308,147 l0,-37" class="combo"/>
 <path d="M308,147 l0,37" class="combo"/>
 <rect rx="6" ry="6" x="294" y="134" width="28" height="26" class="combo"/>
 <text x="308" y="147" class="combo tap"><tspan style="font-size: 60%">&amp;PARENTHE…</tspan></text>
 </g>
-<g class="combo combopos-26">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
 <text x="252" y="119" class="combo tap">(</text>
 </g>
-<g class="combo combopos-27">
+<g class="combo combopos-2">
 <rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
 <text x="308" y="119" class="combo tap">)</text>
 </g>
-<g class="combo combopos-28">
-<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
-<text x="140" y="119" class="combo tap">[</text>
-<text x="140" y="108" class="combo shifted">{</text>
-</g>
-<g class="combo combopos-29">
-<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
-<text x="196" y="112" class="combo tap">]</text>
-<text x="196" y="101" class="combo shifted">}</text>
-</g>
-<g class="combo combopos-30">
-<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
-<text x="112" y="214" class="combo tap">Ctl+Z</text>
-</g>
-<g class="combo combopos-31">
-<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
-<text x="168" y="200" class="combo tap">Ctl+X</text>
-</g>
-<g class="combo combopos-32">
-<rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
-<text x="224" y="200" class="combo tap">Ctl+C</text>
-</g>
-<g class="combo combopos-33">
-<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
-<text x="280" y="203" class="combo tap">Ctl+V</text>
-</g>
-<g class="combo combopos-34">
-<rect rx="6" ry="6" x="294" y="162" width="28" height="26" class="combo"/>
-<text x="308" y="175" class="combo tap">
-<tspan x="308" dy="-0.6em">Alt+</tspan><tspan x="308" dy="1.2em">Ctl+V</tspan>
-</text>
-</g>
-<g class="combo combopos-35">
-<path d="M252,145 l-37,-3" class="combo"/>
-<path d="M252,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="238" y="132" width="28" height="26" class="combo"/>
-<text x="252" y="145" class="combo tap">Ctl+F</text>
-</g>
-<g class="combo combopos-36">
-<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
-<text x="168" y="144" class="combo tap">Ctl+S</text>
-</g>
-<g class="combo combopos-37">
-<path d="M140,154 l38,-10" class="combo"/>
-<path d="M140,154 l-38,10" class="combo"/>
-<rect rx="6" ry="6" x="126" y="141" width="28" height="26" class="combo"/>
-<text x="140" y="154" class="combo tap">Ctl+A</text>
-</g>
-<g class="combo combopos-38">
-<path d="M196,145 l-37,2" class="combo"/>
-<path d="M196,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
-<text x="196" y="145" class="combo tap">
-<tspan x="196" dy="-0.6em">Ctl+</tspan><tspan x="196" dy="1.2em">Alt+F</tspan>
-</text>
-</g>
-<g class="combo combopos-39">
-<path d="M226,179 l-68,-26" class="combo"/>
-<path d="M226,179 l77,90" class="combo"/>
-<rect rx="6" ry="6" x="212" y="166" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="217" y="170" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
-</g>
-<g class="combo combopos-40">
-<path d="M224,159 l-66,-10" class="combo"/>
-<path d="M224,159 l67,35" class="combo"/>
-<rect rx="6" ry="6" x="210" y="146" width="28" height="26" class="combo"/>
-<text x="224" y="159" class="combo tap">Meh+B</text>
-</g>
-<g class="combo combopos-41">
-<rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
-<text x="168" y="116" class="combo tap">Ctl+W</text>
-</g>
-<g class="combo combopos-42">
-<path d="M252,116 l-39,17" class="combo"/>
-<path d="M252,116 l39,-17" class="combo"/>
-<rect rx="6" ry="6" x="238" y="102" width="28" height="26" class="combo"/>
-<text x="252" y="116" class="combo tap">Ctl+T</text>
-</g>
-<g class="combo combopos-43">
+<g class="combo combopos-3">
 <path d="M159,154 l-56,11" class="combo"/>
 <path d="M159,154 l75,-6" class="combo"/>
 <rect rx="6" ry="6" x="145" y="141" width="28" height="26" class="combo"/>
@@ -3027,249 +2124,20 @@ rect.held, rect.combo.held {
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
 <g class="combo combopos-0">
-<path d="M349,192 l34,84" class="combo"/>
-<path d="M349,192 l-34,-84" class="combo"/>
-<rect rx="6" ry="6" x="335" y="180" width="28" height="26" class="combo"/>
-<a href="#SYS">
-<text x="349" y="192" class="combo tap layer-activator">SYS</text>
-</a><text x="349" y="204" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-1">
-<path d="M575,192 l-34,84" class="combo"/>
-<path d="M575,192 l34,-84" class="combo"/>
-<rect rx="6" ry="6" x="561" y="180" width="28" height="26" class="combo"/>
-<a href="#SYS">
-<text x="575" y="192" class="combo tap layer-activator">SYS</text>
-</a><text x="575" y="204" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-2">
-<path d="M311,187 l-3,-77" class="combo"/>
-<path d="M311,187 l3,77" class="combo"/>
-<rect rx="6" ry="6" x="297" y="174" width="28" height="26" class="combo"/>
-<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="302" y="178" height="18" width="18.0" class="combo tap glyph mdi:toggle-switch"/>
-<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="304" y="183" height="15" width="15.0" class="combo hold glyph mdi:bluetooth"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="304" y="176" height="15" width="15.0" class="combo shifted glyph mdi:usb"/>
-</g>
-<g class="combo combopos-3">
-<path d="M613,187 l3,-77" class="combo"/>
-<path d="M613,187 l-3,77" class="combo"/>
-<rect rx="6" ry="6" x="599" y="174" width="28" height="26" class="combo"/>
-<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="604" y="178" height="18" width="18.0" class="combo tap glyph mdi:toggle-switch"/>
-<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="605" y="183" height="15" width="15.0" class="combo hold glyph mdi:bluetooth"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="605" y="176" height="15" width="15.0" class="combo shifted glyph mdi:usb"/>
-</g>
-<g class="combo combopos-4">
-<path d="M641,187 l-25,78" class="combo"/>
-<path d="M641,187 l25,-78" class="combo"/>
-<rect rx="6" ry="6" x="627" y="174" width="28" height="26" class="combo"/>
-<text x="641" y="198" class="combo hold">1</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="633" y="176" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-5">
-<path d="M725,226 l-99,49" class="combo"/>
-<path d="M725,226 l99,-49" class="combo"/>
-<rect rx="6" ry="6" x="711" y="213" width="28" height="26" class="combo"/>
-<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="716" y="217" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
-</g>
-<g class="combo combopos-6">
-<path d="M669,184 l-50,84" class="combo"/>
-<path d="M669,184 l50,-84" class="combo"/>
-<rect rx="6" ry="6" x="655" y="171" width="28" height="26" class="combo"/>
-<text x="669" y="195" class="combo hold">2</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="661" y="173" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-7">
-<path d="M697,187 l-75,82" class="combo"/>
-<path d="M697,187 l75,-82" class="combo"/>
-<rect rx="6" ry="6" x="683" y="174" width="28" height="26" class="combo"/>
-<text x="697" y="198" class="combo hold">3</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="689" y="176" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-8">
-<path d="M725,198 l-100,74" class="combo"/>
-<path d="M725,198 l100,-74" class="combo"/>
-<rect rx="6" ry="6" x="711" y="185" width="28" height="26" class="combo"/>
-<text x="725" y="209" class="combo hold">4</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="717" y="187" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo bootloader combopos-9">
-<path d="M258,269 l-100,-9" class="combo"/>
-<path d="M258,269 l-44,-12" class="combo"/>
-<path d="M258,269 l112,21" class="combo"/>
-<path d="M258,269 l38,9" class="combo"/>
-<rect rx="6" ry="6" x="244" y="256" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="249" y="260" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo bootloader combopos-10">
-<path d="M666,269 l-112,21" class="combo"/>
-<path d="M666,269 l-38,9" class="combo"/>
-<path d="M666,269 l44,-12" class="combo"/>
-<path d="M666,269 l100,-9" class="combo"/>
-<rect rx="6" ry="6" x="652" y="256" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="657" y="260" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo combopos-11">
-<rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="635" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
-</g>
-<g class="combo combopos-12">
-<rect rx="6" ry="6" x="686" y="186" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="691" y="190" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
-</g>
-<g class="combo combopos-13">
-<path d="M28,150 l0,56" class="combo"/>
-<path d="M28,150 l0,-75" class="combo"/>
-<rect rx="6" ry="6" x="14" y="137" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="19" y="141" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
-<g class="combo combopos-14">
-<path d="M84,168 l0,-37" class="combo"/>
-<path d="M84,168 l0,37" class="combo"/>
-<rect rx="6" ry="6" x="70" y="155" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="75" y="159" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
-<g class="combo combopos-15">
-<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
-<text x="168" y="88" class="combo tap">Alt+F4</text>
-</g>
-<g class="combo combopos-16">
-<rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
-<text x="112" y="102" class="combo tap">F2</text>
-</g>
-<g class="combo combopos-17">
-<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
-<text x="224" y="88" class="combo tap">F5</text>
-</g>
-<g class="combo combopos-18">
-<path d="M196,257 l-37,2" class="combo"/>
-<path d="M196,257 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="244" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="187" y="248" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-19">
-<path d="M728,257 l-37,2" class="combo"/>
-<path d="M728,257 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="714" y="244" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="719" y="248" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-20">
-<rect rx="6" ry="6" x="602" y="106" width="28" height="26" class="combo"/>
-<text x="616" y="119" class="combo tap">-</text>
-<text x="616" y="108" class="combo shifted">_</text>
-</g>
-<g class="combo combopos-21">
-<rect rx="6" ry="6" x="658" y="106" width="28" height="26" class="combo"/>
-<text x="672" y="119" class="combo tap">_</text>
-</g>
-<g class="combo combopos-22">
-<rect rx="6" ry="6" x="714" y="99" width="28" height="26" class="combo"/>
-<text x="728" y="112" class="combo tap">=</text>
-<text x="728" y="101" class="combo shifted">+</text>
-</g>
-<g class="combo combopos-23">
-<rect rx="6" ry="6" x="770" y="106" width="28" height="26" class="combo"/>
-<text x="784" y="119" class="combo tap">+</text>
-</g>
-<g class="combo combopos-24">
-<path d="M196,154 l44,-49" class="combo"/>
-<path d="M196,154 l37,-5" class="combo"/>
-<path d="M196,154 l-96,60" class="combo"/>
-<rect rx="6" ry="6" x="182" y="141" width="28" height="26" class="combo"/>
-<text x="196" y="154" class="combo tap"><tspan style="font-size: 75%">&amp;BRACKET</tspan></text>
-</g>
-<g class="combo combopos-25">
 <path d="M308,147 l0,-37" class="combo"/>
 <path d="M308,147 l0,37" class="combo"/>
 <rect rx="6" ry="6" x="294" y="134" width="28" height="26" class="combo"/>
 <text x="308" y="147" class="combo tap"><tspan style="font-size: 60%">&amp;PARENTHE…</tspan></text>
 </g>
-<g class="combo combopos-26">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
 <text x="252" y="119" class="combo tap">(</text>
 </g>
-<g class="combo combopos-27">
+<g class="combo combopos-2">
 <rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
 <text x="308" y="119" class="combo tap">)</text>
 </g>
-<g class="combo combopos-28">
-<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
-<text x="140" y="119" class="combo tap">[</text>
-<text x="140" y="108" class="combo shifted">{</text>
-</g>
-<g class="combo combopos-29">
-<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
-<text x="196" y="112" class="combo tap">]</text>
-<text x="196" y="101" class="combo shifted">}</text>
-</g>
-<g class="combo combopos-30">
-<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
-<text x="112" y="214" class="combo tap">Ctl+Z</text>
-</g>
-<g class="combo combopos-31">
-<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
-<text x="168" y="200" class="combo tap">Ctl+X</text>
-</g>
-<g class="combo combopos-32">
-<rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
-<text x="224" y="200" class="combo tap">Ctl+C</text>
-</g>
-<g class="combo combopos-33">
-<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
-<text x="280" y="203" class="combo tap">Ctl+V</text>
-</g>
-<g class="combo combopos-34">
-<rect rx="6" ry="6" x="294" y="162" width="28" height="26" class="combo"/>
-<text x="308" y="175" class="combo tap">
-<tspan x="308" dy="-0.6em">Alt+</tspan><tspan x="308" dy="1.2em">Ctl+V</tspan>
-</text>
-</g>
-<g class="combo combopos-35">
-<path d="M252,145 l-37,-3" class="combo"/>
-<path d="M252,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="238" y="132" width="28" height="26" class="combo"/>
-<text x="252" y="145" class="combo tap">Ctl+F</text>
-</g>
-<g class="combo combopos-36">
-<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
-<text x="168" y="144" class="combo tap">Ctl+S</text>
-</g>
-<g class="combo combopos-37">
-<path d="M140,154 l38,-10" class="combo"/>
-<path d="M140,154 l-38,10" class="combo"/>
-<rect rx="6" ry="6" x="126" y="141" width="28" height="26" class="combo"/>
-<text x="140" y="154" class="combo tap">Ctl+A</text>
-</g>
-<g class="combo combopos-38">
-<path d="M196,145 l-37,2" class="combo"/>
-<path d="M196,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
-<text x="196" y="145" class="combo tap">
-<tspan x="196" dy="-0.6em">Ctl+</tspan><tspan x="196" dy="1.2em">Alt+F</tspan>
-</text>
-</g>
-<g class="combo combopos-39">
-<path d="M226,179 l-68,-26" class="combo"/>
-<path d="M226,179 l77,90" class="combo"/>
-<rect rx="6" ry="6" x="212" y="166" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="217" y="170" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
-</g>
-<g class="combo combopos-40">
-<path d="M224,159 l-66,-10" class="combo"/>
-<path d="M224,159 l67,35" class="combo"/>
-<rect rx="6" ry="6" x="210" y="146" width="28" height="26" class="combo"/>
-<text x="224" y="159" class="combo tap">Meh+B</text>
-</g>
-<g class="combo combopos-41">
-<rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
-<text x="168" y="116" class="combo tap">Ctl+W</text>
-</g>
-<g class="combo combopos-42">
-<path d="M252,116 l-39,17" class="combo"/>
-<path d="M252,116 l39,-17" class="combo"/>
-<rect rx="6" ry="6" x="238" y="102" width="28" height="26" class="combo"/>
-<text x="252" y="116" class="combo tap">Ctl+T</text>
-</g>
-<g class="combo combopos-43">
+<g class="combo combopos-3">
 <path d="M159,154 l-56,11" class="combo"/>
 <path d="M159,154 l75,-6" class="combo"/>
 <rect rx="6" ry="6" x="145" y="141" width="28" height="26" class="combo"/>
@@ -3603,249 +2471,20 @@ rect.held, rect.combo.held {
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
 <g class="combo combopos-0">
-<path d="M349,192 l34,84" class="combo"/>
-<path d="M349,192 l-34,-84" class="combo"/>
-<rect rx="6" ry="6" x="335" y="180" width="28" height="26" class="combo"/>
-<a href="#SYS">
-<text x="349" y="192" class="combo tap layer-activator">SYS</text>
-</a><text x="349" y="204" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-1">
-<path d="M575,192 l-34,84" class="combo"/>
-<path d="M575,192 l34,-84" class="combo"/>
-<rect rx="6" ry="6" x="561" y="180" width="28" height="26" class="combo"/>
-<a href="#SYS">
-<text x="575" y="192" class="combo tap layer-activator">SYS</text>
-</a><text x="575" y="204" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-2">
-<path d="M311,187 l-3,-77" class="combo"/>
-<path d="M311,187 l3,77" class="combo"/>
-<rect rx="6" ry="6" x="297" y="174" width="28" height="26" class="combo"/>
-<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="302" y="178" height="18" width="18.0" class="combo tap glyph mdi:toggle-switch"/>
-<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="304" y="183" height="15" width="15.0" class="combo hold glyph mdi:bluetooth"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="304" y="176" height="15" width="15.0" class="combo shifted glyph mdi:usb"/>
-</g>
-<g class="combo combopos-3">
-<path d="M613,187 l3,-77" class="combo"/>
-<path d="M613,187 l-3,77" class="combo"/>
-<rect rx="6" ry="6" x="599" y="174" width="28" height="26" class="combo"/>
-<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="604" y="178" height="18" width="18.0" class="combo tap glyph mdi:toggle-switch"/>
-<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="605" y="183" height="15" width="15.0" class="combo hold glyph mdi:bluetooth"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="605" y="176" height="15" width="15.0" class="combo shifted glyph mdi:usb"/>
-</g>
-<g class="combo combopos-4">
-<path d="M641,187 l-25,78" class="combo"/>
-<path d="M641,187 l25,-78" class="combo"/>
-<rect rx="6" ry="6" x="627" y="174" width="28" height="26" class="combo"/>
-<text x="641" y="198" class="combo hold">1</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="633" y="176" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-5">
-<path d="M725,226 l-99,49" class="combo"/>
-<path d="M725,226 l99,-49" class="combo"/>
-<rect rx="6" ry="6" x="711" y="213" width="28" height="26" class="combo"/>
-<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="716" y="217" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
-</g>
-<g class="combo combopos-6">
-<path d="M669,184 l-50,84" class="combo"/>
-<path d="M669,184 l50,-84" class="combo"/>
-<rect rx="6" ry="6" x="655" y="171" width="28" height="26" class="combo"/>
-<text x="669" y="195" class="combo hold">2</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="661" y="173" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-7">
-<path d="M697,187 l-75,82" class="combo"/>
-<path d="M697,187 l75,-82" class="combo"/>
-<rect rx="6" ry="6" x="683" y="174" width="28" height="26" class="combo"/>
-<text x="697" y="198" class="combo hold">3</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="689" y="176" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-8">
-<path d="M725,198 l-100,74" class="combo"/>
-<path d="M725,198 l100,-74" class="combo"/>
-<rect rx="6" ry="6" x="711" y="185" width="28" height="26" class="combo"/>
-<text x="725" y="209" class="combo hold">4</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="717" y="187" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo bootloader combopos-9">
-<path d="M258,269 l-100,-9" class="combo"/>
-<path d="M258,269 l-44,-12" class="combo"/>
-<path d="M258,269 l112,21" class="combo"/>
-<path d="M258,269 l38,9" class="combo"/>
-<rect rx="6" ry="6" x="244" y="256" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="249" y="260" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo bootloader combopos-10">
-<path d="M666,269 l-112,21" class="combo"/>
-<path d="M666,269 l-38,9" class="combo"/>
-<path d="M666,269 l44,-12" class="combo"/>
-<path d="M666,269 l100,-9" class="combo"/>
-<rect rx="6" ry="6" x="652" y="256" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="657" y="260" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo combopos-11">
-<rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="635" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
-</g>
-<g class="combo combopos-12">
-<rect rx="6" ry="6" x="686" y="186" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="691" y="190" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
-</g>
-<g class="combo combopos-13">
-<path d="M28,150 l0,56" class="combo"/>
-<path d="M28,150 l0,-75" class="combo"/>
-<rect rx="6" ry="6" x="14" y="137" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="19" y="141" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
-<g class="combo combopos-14">
-<path d="M84,168 l0,-37" class="combo"/>
-<path d="M84,168 l0,37" class="combo"/>
-<rect rx="6" ry="6" x="70" y="155" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="75" y="159" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
-<g class="combo combopos-15">
-<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
-<text x="168" y="88" class="combo tap">Alt+F4</text>
-</g>
-<g class="combo combopos-16">
-<rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
-<text x="112" y="102" class="combo tap">F2</text>
-</g>
-<g class="combo combopos-17">
-<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
-<text x="224" y="88" class="combo tap">F5</text>
-</g>
-<g class="combo combopos-18">
-<path d="M196,257 l-37,2" class="combo"/>
-<path d="M196,257 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="244" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="187" y="248" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-19">
-<path d="M728,257 l-37,2" class="combo"/>
-<path d="M728,257 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="714" y="244" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="719" y="248" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-20">
-<rect rx="6" ry="6" x="602" y="106" width="28" height="26" class="combo"/>
-<text x="616" y="119" class="combo tap">-</text>
-<text x="616" y="108" class="combo shifted">_</text>
-</g>
-<g class="combo combopos-21">
-<rect rx="6" ry="6" x="658" y="106" width="28" height="26" class="combo"/>
-<text x="672" y="119" class="combo tap">_</text>
-</g>
-<g class="combo combopos-22">
-<rect rx="6" ry="6" x="714" y="99" width="28" height="26" class="combo"/>
-<text x="728" y="112" class="combo tap">=</text>
-<text x="728" y="101" class="combo shifted">+</text>
-</g>
-<g class="combo combopos-23">
-<rect rx="6" ry="6" x="770" y="106" width="28" height="26" class="combo"/>
-<text x="784" y="119" class="combo tap">+</text>
-</g>
-<g class="combo combopos-24">
-<path d="M196,154 l44,-49" class="combo"/>
-<path d="M196,154 l37,-5" class="combo"/>
-<path d="M196,154 l-96,60" class="combo"/>
-<rect rx="6" ry="6" x="182" y="141" width="28" height="26" class="combo"/>
-<text x="196" y="154" class="combo tap"><tspan style="font-size: 75%">&amp;BRACKET</tspan></text>
-</g>
-<g class="combo combopos-25">
 <path d="M308,147 l0,-37" class="combo"/>
 <path d="M308,147 l0,37" class="combo"/>
 <rect rx="6" ry="6" x="294" y="134" width="28" height="26" class="combo"/>
 <text x="308" y="147" class="combo tap"><tspan style="font-size: 60%">&amp;PARENTHE…</tspan></text>
 </g>
-<g class="combo combopos-26">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
 <text x="252" y="119" class="combo tap">(</text>
 </g>
-<g class="combo combopos-27">
+<g class="combo combopos-2">
 <rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
 <text x="308" y="119" class="combo tap">)</text>
 </g>
-<g class="combo combopos-28">
-<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
-<text x="140" y="119" class="combo tap">[</text>
-<text x="140" y="108" class="combo shifted">{</text>
-</g>
-<g class="combo combopos-29">
-<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
-<text x="196" y="112" class="combo tap">]</text>
-<text x="196" y="101" class="combo shifted">}</text>
-</g>
-<g class="combo combopos-30">
-<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
-<text x="112" y="214" class="combo tap">Ctl+Z</text>
-</g>
-<g class="combo combopos-31">
-<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
-<text x="168" y="200" class="combo tap">Ctl+X</text>
-</g>
-<g class="combo combopos-32">
-<rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
-<text x="224" y="200" class="combo tap">Ctl+C</text>
-</g>
-<g class="combo combopos-33">
-<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
-<text x="280" y="203" class="combo tap">Ctl+V</text>
-</g>
-<g class="combo combopos-34">
-<rect rx="6" ry="6" x="294" y="162" width="28" height="26" class="combo"/>
-<text x="308" y="175" class="combo tap">
-<tspan x="308" dy="-0.6em">Alt+</tspan><tspan x="308" dy="1.2em">Ctl+V</tspan>
-</text>
-</g>
-<g class="combo combopos-35">
-<path d="M252,145 l-37,-3" class="combo"/>
-<path d="M252,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="238" y="132" width="28" height="26" class="combo"/>
-<text x="252" y="145" class="combo tap">Ctl+F</text>
-</g>
-<g class="combo combopos-36">
-<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
-<text x="168" y="144" class="combo tap">Ctl+S</text>
-</g>
-<g class="combo combopos-37">
-<path d="M140,154 l38,-10" class="combo"/>
-<path d="M140,154 l-38,10" class="combo"/>
-<rect rx="6" ry="6" x="126" y="141" width="28" height="26" class="combo"/>
-<text x="140" y="154" class="combo tap">Ctl+A</text>
-</g>
-<g class="combo combopos-38">
-<path d="M196,145 l-37,2" class="combo"/>
-<path d="M196,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
-<text x="196" y="145" class="combo tap">
-<tspan x="196" dy="-0.6em">Ctl+</tspan><tspan x="196" dy="1.2em">Alt+F</tspan>
-</text>
-</g>
-<g class="combo combopos-39">
-<path d="M226,179 l-68,-26" class="combo"/>
-<path d="M226,179 l77,90" class="combo"/>
-<rect rx="6" ry="6" x="212" y="166" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="217" y="170" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
-</g>
-<g class="combo combopos-40">
-<path d="M224,159 l-66,-10" class="combo"/>
-<path d="M224,159 l67,35" class="combo"/>
-<rect rx="6" ry="6" x="210" y="146" width="28" height="26" class="combo"/>
-<text x="224" y="159" class="combo tap">Meh+B</text>
-</g>
-<g class="combo combopos-41">
-<rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
-<text x="168" y="116" class="combo tap">Ctl+W</text>
-</g>
-<g class="combo combopos-42">
-<path d="M252,116 l-39,17" class="combo"/>
-<path d="M252,116 l39,-17" class="combo"/>
-<rect rx="6" ry="6" x="238" y="102" width="28" height="26" class="combo"/>
-<text x="252" y="116" class="combo tap">Ctl+T</text>
-</g>
-<g class="combo combopos-43">
+<g class="combo combopos-3">
 <path d="M159,154 l-56,11" class="combo"/>
 <path d="M159,154 l75,-6" class="combo"/>
 <rect rx="6" ry="6" x="145" y="141" width="28" height="26" class="combo"/>
@@ -4181,249 +2820,20 @@ rect.held, rect.combo.held {
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
 <g class="combo combopos-0">
-<path d="M349,192 l34,84" class="combo"/>
-<path d="M349,192 l-34,-84" class="combo"/>
-<rect rx="6" ry="6" x="335" y="180" width="28" height="26" class="combo"/>
-<a href="#SYS">
-<text x="349" y="192" class="combo tap layer-activator">SYS</text>
-</a><text x="349" y="204" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-1">
-<path d="M575,192 l-34,84" class="combo"/>
-<path d="M575,192 l34,-84" class="combo"/>
-<rect rx="6" ry="6" x="561" y="180" width="28" height="26" class="combo"/>
-<a href="#SYS">
-<text x="575" y="192" class="combo tap layer-activator">SYS</text>
-</a><text x="575" y="204" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-2">
-<path d="M311,187 l-3,-77" class="combo"/>
-<path d="M311,187 l3,77" class="combo"/>
-<rect rx="6" ry="6" x="297" y="174" width="28" height="26" class="combo"/>
-<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="302" y="178" height="18" width="18.0" class="combo tap glyph mdi:toggle-switch"/>
-<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="304" y="183" height="15" width="15.0" class="combo hold glyph mdi:bluetooth"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="304" y="176" height="15" width="15.0" class="combo shifted glyph mdi:usb"/>
-</g>
-<g class="combo combopos-3">
-<path d="M613,187 l3,-77" class="combo"/>
-<path d="M613,187 l-3,77" class="combo"/>
-<rect rx="6" ry="6" x="599" y="174" width="28" height="26" class="combo"/>
-<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="604" y="178" height="18" width="18.0" class="combo tap glyph mdi:toggle-switch"/>
-<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="605" y="183" height="15" width="15.0" class="combo hold glyph mdi:bluetooth"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="605" y="176" height="15" width="15.0" class="combo shifted glyph mdi:usb"/>
-</g>
-<g class="combo combopos-4">
-<path d="M641,187 l-25,78" class="combo"/>
-<path d="M641,187 l25,-78" class="combo"/>
-<rect rx="6" ry="6" x="627" y="174" width="28" height="26" class="combo"/>
-<text x="641" y="198" class="combo hold">1</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="633" y="176" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-5">
-<path d="M725,226 l-99,49" class="combo"/>
-<path d="M725,226 l99,-49" class="combo"/>
-<rect rx="6" ry="6" x="711" y="213" width="28" height="26" class="combo"/>
-<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="716" y="217" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
-</g>
-<g class="combo combopos-6">
-<path d="M669,184 l-50,84" class="combo"/>
-<path d="M669,184 l50,-84" class="combo"/>
-<rect rx="6" ry="6" x="655" y="171" width="28" height="26" class="combo"/>
-<text x="669" y="195" class="combo hold">2</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="661" y="173" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-7">
-<path d="M697,187 l-75,82" class="combo"/>
-<path d="M697,187 l75,-82" class="combo"/>
-<rect rx="6" ry="6" x="683" y="174" width="28" height="26" class="combo"/>
-<text x="697" y="198" class="combo hold">3</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="689" y="176" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-8">
-<path d="M725,198 l-100,74" class="combo"/>
-<path d="M725,198 l100,-74" class="combo"/>
-<rect rx="6" ry="6" x="711" y="185" width="28" height="26" class="combo"/>
-<text x="725" y="209" class="combo hold">4</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="717" y="187" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo bootloader combopos-9">
-<path d="M258,269 l-100,-9" class="combo"/>
-<path d="M258,269 l-44,-12" class="combo"/>
-<path d="M258,269 l112,21" class="combo"/>
-<path d="M258,269 l38,9" class="combo"/>
-<rect rx="6" ry="6" x="244" y="256" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="249" y="260" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo bootloader combopos-10">
-<path d="M666,269 l-112,21" class="combo"/>
-<path d="M666,269 l-38,9" class="combo"/>
-<path d="M666,269 l44,-12" class="combo"/>
-<path d="M666,269 l100,-9" class="combo"/>
-<rect rx="6" ry="6" x="652" y="256" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="657" y="260" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo combopos-11">
-<rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="635" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
-</g>
-<g class="combo combopos-12">
-<rect rx="6" ry="6" x="686" y="186" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="691" y="190" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
-</g>
-<g class="combo combopos-13">
-<path d="M28,150 l0,56" class="combo"/>
-<path d="M28,150 l0,-75" class="combo"/>
-<rect rx="6" ry="6" x="14" y="137" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="19" y="141" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
-<g class="combo combopos-14">
-<path d="M84,168 l0,-37" class="combo"/>
-<path d="M84,168 l0,37" class="combo"/>
-<rect rx="6" ry="6" x="70" y="155" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="75" y="159" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
-<g class="combo combopos-15">
-<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
-<text x="168" y="88" class="combo tap">Alt+F4</text>
-</g>
-<g class="combo combopos-16">
-<rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
-<text x="112" y="102" class="combo tap">F2</text>
-</g>
-<g class="combo combopos-17">
-<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
-<text x="224" y="88" class="combo tap">F5</text>
-</g>
-<g class="combo combopos-18">
-<path d="M196,257 l-37,2" class="combo"/>
-<path d="M196,257 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="244" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="187" y="248" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-19">
-<path d="M728,257 l-37,2" class="combo"/>
-<path d="M728,257 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="714" y="244" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="719" y="248" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-20">
-<rect rx="6" ry="6" x="602" y="106" width="28" height="26" class="combo"/>
-<text x="616" y="119" class="combo tap">-</text>
-<text x="616" y="108" class="combo shifted">_</text>
-</g>
-<g class="combo combopos-21">
-<rect rx="6" ry="6" x="658" y="106" width="28" height="26" class="combo"/>
-<text x="672" y="119" class="combo tap">_</text>
-</g>
-<g class="combo combopos-22">
-<rect rx="6" ry="6" x="714" y="99" width="28" height="26" class="combo"/>
-<text x="728" y="112" class="combo tap">=</text>
-<text x="728" y="101" class="combo shifted">+</text>
-</g>
-<g class="combo combopos-23">
-<rect rx="6" ry="6" x="770" y="106" width="28" height="26" class="combo"/>
-<text x="784" y="119" class="combo tap">+</text>
-</g>
-<g class="combo combopos-24">
-<path d="M196,154 l44,-49" class="combo"/>
-<path d="M196,154 l37,-5" class="combo"/>
-<path d="M196,154 l-96,60" class="combo"/>
-<rect rx="6" ry="6" x="182" y="141" width="28" height="26" class="combo"/>
-<text x="196" y="154" class="combo tap"><tspan style="font-size: 75%">&amp;BRACKET</tspan></text>
-</g>
-<g class="combo combopos-25">
 <path d="M308,147 l0,-37" class="combo"/>
 <path d="M308,147 l0,37" class="combo"/>
 <rect rx="6" ry="6" x="294" y="134" width="28" height="26" class="combo"/>
 <text x="308" y="147" class="combo tap"><tspan style="font-size: 60%">&amp;PARENTHE…</tspan></text>
 </g>
-<g class="combo combopos-26">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
 <text x="252" y="119" class="combo tap">(</text>
 </g>
-<g class="combo combopos-27">
+<g class="combo combopos-2">
 <rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
 <text x="308" y="119" class="combo tap">)</text>
 </g>
-<g class="combo combopos-28">
-<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
-<text x="140" y="119" class="combo tap">[</text>
-<text x="140" y="108" class="combo shifted">{</text>
-</g>
-<g class="combo combopos-29">
-<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
-<text x="196" y="112" class="combo tap">]</text>
-<text x="196" y="101" class="combo shifted">}</text>
-</g>
-<g class="combo combopos-30">
-<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
-<text x="112" y="214" class="combo tap">Ctl+Z</text>
-</g>
-<g class="combo combopos-31">
-<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
-<text x="168" y="200" class="combo tap">Ctl+X</text>
-</g>
-<g class="combo combopos-32">
-<rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
-<text x="224" y="200" class="combo tap">Ctl+C</text>
-</g>
-<g class="combo combopos-33">
-<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
-<text x="280" y="203" class="combo tap">Ctl+V</text>
-</g>
-<g class="combo combopos-34">
-<rect rx="6" ry="6" x="294" y="162" width="28" height="26" class="combo"/>
-<text x="308" y="175" class="combo tap">
-<tspan x="308" dy="-0.6em">Alt+</tspan><tspan x="308" dy="1.2em">Ctl+V</tspan>
-</text>
-</g>
-<g class="combo combopos-35">
-<path d="M252,145 l-37,-3" class="combo"/>
-<path d="M252,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="238" y="132" width="28" height="26" class="combo"/>
-<text x="252" y="145" class="combo tap">Ctl+F</text>
-</g>
-<g class="combo combopos-36">
-<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
-<text x="168" y="144" class="combo tap">Ctl+S</text>
-</g>
-<g class="combo combopos-37">
-<path d="M140,154 l38,-10" class="combo"/>
-<path d="M140,154 l-38,10" class="combo"/>
-<rect rx="6" ry="6" x="126" y="141" width="28" height="26" class="combo"/>
-<text x="140" y="154" class="combo tap">Ctl+A</text>
-</g>
-<g class="combo combopos-38">
-<path d="M196,145 l-37,2" class="combo"/>
-<path d="M196,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
-<text x="196" y="145" class="combo tap">
-<tspan x="196" dy="-0.6em">Ctl+</tspan><tspan x="196" dy="1.2em">Alt+F</tspan>
-</text>
-</g>
-<g class="combo combopos-39">
-<path d="M226,179 l-68,-26" class="combo"/>
-<path d="M226,179 l77,90" class="combo"/>
-<rect rx="6" ry="6" x="212" y="166" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="217" y="170" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
-</g>
-<g class="combo combopos-40">
-<path d="M224,159 l-66,-10" class="combo"/>
-<path d="M224,159 l67,35" class="combo"/>
-<rect rx="6" ry="6" x="210" y="146" width="28" height="26" class="combo"/>
-<text x="224" y="159" class="combo tap">Meh+B</text>
-</g>
-<g class="combo combopos-41">
-<rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
-<text x="168" y="116" class="combo tap">Ctl+W</text>
-</g>
-<g class="combo combopos-42">
-<path d="M252,116 l-39,17" class="combo"/>
-<path d="M252,116 l39,-17" class="combo"/>
-<rect rx="6" ry="6" x="238" y="102" width="28" height="26" class="combo"/>
-<text x="252" y="116" class="combo tap">Ctl+T</text>
-</g>
-<g class="combo combopos-43">
+<g class="combo combopos-3">
 <path d="M159,154 l-56,11" class="combo"/>
 <path d="M159,154 l75,-6" class="combo"/>
 <rect rx="6" ry="6" x="145" y="141" width="28" height="26" class="combo"/>
@@ -4794,249 +3204,20 @@ rect.held, rect.combo.held {
 <use href="#mdi:usb" xlink:href="#mdi:usb" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:usb"/>
 </g>
 <g class="combo combopos-0">
-<path d="M349,192 l34,84" class="combo"/>
-<path d="M349,192 l-34,-84" class="combo"/>
-<rect rx="6" ry="6" x="335" y="180" width="28" height="26" class="combo"/>
-<a href="#SYS">
-<text x="349" y="192" class="combo tap layer-activator">SYS</text>
-</a><text x="349" y="204" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-1">
-<path d="M575,192 l-34,84" class="combo"/>
-<path d="M575,192 l34,-84" class="combo"/>
-<rect rx="6" ry="6" x="561" y="180" width="28" height="26" class="combo"/>
-<a href="#SYS">
-<text x="575" y="192" class="combo tap layer-activator">SYS</text>
-</a><text x="575" y="204" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-2">
-<path d="M311,187 l-3,-77" class="combo"/>
-<path d="M311,187 l3,77" class="combo"/>
-<rect rx="6" ry="6" x="297" y="174" width="28" height="26" class="combo"/>
-<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="302" y="178" height="18" width="18.0" class="combo tap glyph mdi:toggle-switch"/>
-<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="304" y="183" height="15" width="15.0" class="combo hold glyph mdi:bluetooth"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="304" y="176" height="15" width="15.0" class="combo shifted glyph mdi:usb"/>
-</g>
-<g class="combo combopos-3">
-<path d="M613,187 l3,-77" class="combo"/>
-<path d="M613,187 l-3,77" class="combo"/>
-<rect rx="6" ry="6" x="599" y="174" width="28" height="26" class="combo"/>
-<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="604" y="178" height="18" width="18.0" class="combo tap glyph mdi:toggle-switch"/>
-<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="605" y="183" height="15" width="15.0" class="combo hold glyph mdi:bluetooth"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="605" y="176" height="15" width="15.0" class="combo shifted glyph mdi:usb"/>
-</g>
-<g class="combo combopos-4">
-<path d="M641,187 l-25,78" class="combo"/>
-<path d="M641,187 l25,-78" class="combo"/>
-<rect rx="6" ry="6" x="627" y="174" width="28" height="26" class="combo"/>
-<text x="641" y="198" class="combo hold">1</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="633" y="176" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-5">
-<path d="M725,226 l-99,49" class="combo"/>
-<path d="M725,226 l99,-49" class="combo"/>
-<rect rx="6" ry="6" x="711" y="213" width="28" height="26" class="combo"/>
-<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="716" y="217" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
-</g>
-<g class="combo combopos-6">
-<path d="M669,184 l-50,84" class="combo"/>
-<path d="M669,184 l50,-84" class="combo"/>
-<rect rx="6" ry="6" x="655" y="171" width="28" height="26" class="combo"/>
-<text x="669" y="195" class="combo hold">2</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="661" y="173" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-7">
-<path d="M697,187 l-75,82" class="combo"/>
-<path d="M697,187 l75,-82" class="combo"/>
-<rect rx="6" ry="6" x="683" y="174" width="28" height="26" class="combo"/>
-<text x="697" y="198" class="combo hold">3</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="689" y="176" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-8">
-<path d="M725,198 l-100,74" class="combo"/>
-<path d="M725,198 l100,-74" class="combo"/>
-<rect rx="6" ry="6" x="711" y="185" width="28" height="26" class="combo"/>
-<text x="725" y="209" class="combo hold">4</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="717" y="187" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo bootloader combopos-9">
-<path d="M258,269 l-100,-9" class="combo"/>
-<path d="M258,269 l-44,-12" class="combo"/>
-<path d="M258,269 l112,21" class="combo"/>
-<path d="M258,269 l38,9" class="combo"/>
-<rect rx="6" ry="6" x="244" y="256" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="249" y="260" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo bootloader combopos-10">
-<path d="M666,269 l-112,21" class="combo"/>
-<path d="M666,269 l-38,9" class="combo"/>
-<path d="M666,269 l44,-12" class="combo"/>
-<path d="M666,269 l100,-9" class="combo"/>
-<rect rx="6" ry="6" x="652" y="256" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="657" y="260" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo combopos-11">
-<rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="635" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
-</g>
-<g class="combo combopos-12">
-<rect rx="6" ry="6" x="686" y="186" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="691" y="190" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
-</g>
-<g class="combo combopos-13">
-<path d="M28,150 l0,56" class="combo"/>
-<path d="M28,150 l0,-75" class="combo"/>
-<rect rx="6" ry="6" x="14" y="137" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="19" y="141" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
-<g class="combo combopos-14">
-<path d="M84,168 l0,-37" class="combo"/>
-<path d="M84,168 l0,37" class="combo"/>
-<rect rx="6" ry="6" x="70" y="155" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="75" y="159" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
-<g class="combo combopos-15">
-<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
-<text x="168" y="88" class="combo tap">Alt+F4</text>
-</g>
-<g class="combo combopos-16">
-<rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
-<text x="112" y="102" class="combo tap">F2</text>
-</g>
-<g class="combo combopos-17">
-<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
-<text x="224" y="88" class="combo tap">F5</text>
-</g>
-<g class="combo combopos-18">
-<path d="M196,257 l-37,2" class="combo"/>
-<path d="M196,257 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="244" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="187" y="248" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-19">
-<path d="M728,257 l-37,2" class="combo"/>
-<path d="M728,257 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="714" y="244" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="719" y="248" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-20">
-<rect rx="6" ry="6" x="602" y="106" width="28" height="26" class="combo"/>
-<text x="616" y="119" class="combo tap">-</text>
-<text x="616" y="108" class="combo shifted">_</text>
-</g>
-<g class="combo combopos-21">
-<rect rx="6" ry="6" x="658" y="106" width="28" height="26" class="combo"/>
-<text x="672" y="119" class="combo tap">_</text>
-</g>
-<g class="combo combopos-22">
-<rect rx="6" ry="6" x="714" y="99" width="28" height="26" class="combo"/>
-<text x="728" y="112" class="combo tap">=</text>
-<text x="728" y="101" class="combo shifted">+</text>
-</g>
-<g class="combo combopos-23">
-<rect rx="6" ry="6" x="770" y="106" width="28" height="26" class="combo"/>
-<text x="784" y="119" class="combo tap">+</text>
-</g>
-<g class="combo combopos-24">
-<path d="M196,154 l44,-49" class="combo"/>
-<path d="M196,154 l37,-5" class="combo"/>
-<path d="M196,154 l-96,60" class="combo"/>
-<rect rx="6" ry="6" x="182" y="141" width="28" height="26" class="combo"/>
-<text x="196" y="154" class="combo tap"><tspan style="font-size: 75%">&amp;BRACKET</tspan></text>
-</g>
-<g class="combo combopos-25">
 <path d="M308,147 l0,-37" class="combo"/>
 <path d="M308,147 l0,37" class="combo"/>
 <rect rx="6" ry="6" x="294" y="134" width="28" height="26" class="combo"/>
 <text x="308" y="147" class="combo tap"><tspan style="font-size: 60%">&amp;PARENTHE…</tspan></text>
 </g>
-<g class="combo combopos-26">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
 <text x="252" y="119" class="combo tap">(</text>
 </g>
-<g class="combo combopos-27">
+<g class="combo combopos-2">
 <rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
 <text x="308" y="119" class="combo tap">)</text>
 </g>
-<g class="combo combopos-28">
-<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
-<text x="140" y="119" class="combo tap">[</text>
-<text x="140" y="108" class="combo shifted">{</text>
-</g>
-<g class="combo combopos-29">
-<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
-<text x="196" y="112" class="combo tap">]</text>
-<text x="196" y="101" class="combo shifted">}</text>
-</g>
-<g class="combo combopos-30">
-<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
-<text x="112" y="214" class="combo tap">Ctl+Z</text>
-</g>
-<g class="combo combopos-31">
-<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
-<text x="168" y="200" class="combo tap">Ctl+X</text>
-</g>
-<g class="combo combopos-32">
-<rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
-<text x="224" y="200" class="combo tap">Ctl+C</text>
-</g>
-<g class="combo combopos-33">
-<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
-<text x="280" y="203" class="combo tap">Ctl+V</text>
-</g>
-<g class="combo combopos-34">
-<rect rx="6" ry="6" x="294" y="162" width="28" height="26" class="combo"/>
-<text x="308" y="175" class="combo tap">
-<tspan x="308" dy="-0.6em">Alt+</tspan><tspan x="308" dy="1.2em">Ctl+V</tspan>
-</text>
-</g>
-<g class="combo combopos-35">
-<path d="M252,145 l-37,-3" class="combo"/>
-<path d="M252,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="238" y="132" width="28" height="26" class="combo"/>
-<text x="252" y="145" class="combo tap">Ctl+F</text>
-</g>
-<g class="combo combopos-36">
-<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
-<text x="168" y="144" class="combo tap">Ctl+S</text>
-</g>
-<g class="combo combopos-37">
-<path d="M140,154 l38,-10" class="combo"/>
-<path d="M140,154 l-38,10" class="combo"/>
-<rect rx="6" ry="6" x="126" y="141" width="28" height="26" class="combo"/>
-<text x="140" y="154" class="combo tap">Ctl+A</text>
-</g>
-<g class="combo combopos-38">
-<path d="M196,145 l-37,2" class="combo"/>
-<path d="M196,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
-<text x="196" y="145" class="combo tap">
-<tspan x="196" dy="-0.6em">Ctl+</tspan><tspan x="196" dy="1.2em">Alt+F</tspan>
-</text>
-</g>
-<g class="combo combopos-39">
-<path d="M226,179 l-68,-26" class="combo"/>
-<path d="M226,179 l77,90" class="combo"/>
-<rect rx="6" ry="6" x="212" y="166" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="217" y="170" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
-</g>
-<g class="combo combopos-40">
-<path d="M224,159 l-66,-10" class="combo"/>
-<path d="M224,159 l67,35" class="combo"/>
-<rect rx="6" ry="6" x="210" y="146" width="28" height="26" class="combo"/>
-<text x="224" y="159" class="combo tap">Meh+B</text>
-</g>
-<g class="combo combopos-41">
-<rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
-<text x="168" y="116" class="combo tap">Ctl+W</text>
-</g>
-<g class="combo combopos-42">
-<path d="M252,116 l-39,17" class="combo"/>
-<path d="M252,116 l39,-17" class="combo"/>
-<rect rx="6" ry="6" x="238" y="102" width="28" height="26" class="combo"/>
-<text x="252" y="116" class="combo tap">Ctl+T</text>
-</g>
-<g class="combo combopos-43">
+<g class="combo combopos-3">
 <path d="M159,154 l-56,11" class="combo"/>
 <path d="M159,154 l75,-6" class="combo"/>
 <rect rx="6" ry="6" x="145" y="141" width="28" height="26" class="combo"/>

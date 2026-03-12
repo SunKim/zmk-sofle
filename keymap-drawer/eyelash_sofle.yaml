@@ -29,16 +29,16 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: \}
   - '&CTRL_CAPS'
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-  - S
-  - D
-  - F
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-command$$', s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - Z
@@ -521,91 +521,14 @@ layers:
   - {t: ALPHA, h: toggle}
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
 combos:
-- p: [57, 18]
-  k: {t: SYS, h: toggle}
-- p: [59, 20]
-  k: {t: SYS, h: toggle}
-- p: [18, 56]
-  k: {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
-- p: [20, 60]
-  k: {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
-- p: [60, 21]
-  k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
-- p: [60, 37]
-  k: $$mdi:bluetooth-off$$
-- p: [60, 22]
-  k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
-- p: [60, 23]
-  k: {h: '3', s: '$$mdi:bluetooth-connect$$'}
-- p: [60, 24]
-  k: {h: '4', s: '$$mdi:bluetooth-connect$$'}
-- p: [53, 54, 55, 57, 56]
-  k: {t: '$$mdi:backup-restore$$', type: bootloader}
-- p: [59, 60, 61, 62, 63]
-  k: {t: '$$mdi:backup-restore$$', type: bootloader}
-- p: [46, 47]
-  k: $$mdi:apple-keyboard-option$$
-- p: [47, 48]
-  k: $$mdi:apple-keyboard-control$$
-- p: [39, 26, 0]
-  k: Ctl+Sft+$$mdi:keyboard-esc$$
-- p: [14, 27, 40]
-  k: Ctl+Sft+$$mdi:keyboard-esc$$
-- p: [15, 16]
-  k: Alt+F4
-- p: [15, 14]
-  k: F2
-- p: [17, 16]
-  k: F5
-- p: [53, 54, 55]
-  k: $$mdi:progress-download$$
-- p: [61, 62, 63]
-  k: $$mdi:progress-download$$
-- p: [20, 33]
-  k: {t: '-', s: _}
-- p: [21, 34]
-  k: _
-- p: [35, 22]
-  k: {t: '=', s: +}
-- p: [23, 36]
-  k: +
-- p: [17, 30, 40]
-  k: '&BRACKET'
 - p: [18, 31, 44]
   k: '&PARENTHESIS'
 - p: [17, 30]
   k: (
 - p: [18, 31]
   k: )
-- p: [15, 28]
-  k: {t: '[', s: '{'}
-- p: [16, 29]
-  k: {t: ']', s: '}'}
-- p: [40, 41]
-  k: Ctl+Z
-- p: [41, 42]
-  k: Ctl+X
-- p: [42, 43]
-  k: Ctl+C
-- p: [44, 43]
-  k: Ctl+V
-- p: [44, 31]
-  k: Alt+Ctl+V
-- p: [29, 30, 31]
-  k: Ctl+F
-- p: [29, 28]
-  k: Ctl+S
-- p: [29, 27]
-  k: Ctl+A
-- p: [28, 29, 30]
-  k: Ctl+Alt+F
-- p: [28, 29, 30, 56]
-  k: Meh+$$mdi:keyboard-space$$
-- p: [28, 29, 30, 44]
-  k: Meh+B
-- p: [29, 15]
-  k: Ctl+W
-- p: [29, 18]
-  k: Ctl+T
 - p: [27, 30, 28]
   k: Gui+Sft+S
+- p: [27, 28, 29]
+  k: '&sql_select'
+  l: [ALPHA]
