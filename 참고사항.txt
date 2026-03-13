@@ -1,0 +1,51 @@
+=== 대현키보드  zmk-sofle eyelash
+Home-Row: G(cmd) A(alt) C(control) S(shift)
+좌측 thumb 1,2,3: esc, spacebar, tab
+우측 thumb 1,2,3: backspace, spacebar, enter
+
+
+=== 참고사항
+zmk: split의 양쪽간 bluetooth를 지원하는 zephyr 기반 펌웨어. qmk에서 파생. key customizing(home-row)
+
+= 구조
+컨트롤러는 우측 키보드와 연결된 컨트롤러 디스플레이.
+
+= 전원버튼
+동글: 아래로 내려간게 on
+좌우 키보드: 중앙(안쪽)을 향해있는게 on. 바깥쪽을 향하면 off
+
+= docs
+https://zmk.dev/docs
+
+= customizing
+원본 github. 이걸 포크해서 수정.
+https://github.com/a741725193/zmk-sofle
+https://github.com/SunKim/zmk-sofle
+config/eyelash_sofle.keymap
+=> .keymap 수정시 리시버 뒷면 둥근 리셋버튼 두번 - usb 드라이브로 연결됨. action에서 나온 firmware 다운로드후 파일을 복사.
+=> .config 수정시 위처럼 리시버 처리 후 usb - 키보드 각각 연결 후 리셋버튼 두번 - usb드라이브인식 - 파일복사
+
+= keymap web ui
+https://nickcoutsos.github.io/keymap-editor/
+keymap만 수정했으므로 리시버에만 반영하면 됨.
+
+= 기초적인 키 매핑. 알파버전이라 불안정
+https://zmk.studio/
+
+= urob 사용자 사용예시
+https://github.com/urob/zmk-config
+
+
+
+
+=== todo
+home-row init term 조절
+_ combo지정
+
+
+
+
+
+=== 다른 제품들
+= Keychron B1 Pro (일반 펜타그래프 키보드처럼 생겼는데 zmk 써서 매크로, home-row 가능) 
+https://blog.naver.com/babosamdae44/224174002868
