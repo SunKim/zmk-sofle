@@ -35,6 +35,8 @@ https://zmk.studio/
 = urob 사용자 사용예시
 https://github.com/urob/zmk-config
 
+= dongle display customizing
+https://github.com/englmaxi/zmk-dongle-display
 
 
 
