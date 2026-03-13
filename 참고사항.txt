@@ -37,7 +37,7 @@ https://github.com/urob/zmk-config
 
 = dongle display customizing
 https://github.com/englmaxi/zmk-dongle-display
-
+https://makerworld.com/ko/models/403660-zmk-keyboard-macintosh-dongle-display
 
 
 === todo
