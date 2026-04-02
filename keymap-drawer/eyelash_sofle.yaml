@@ -536,3 +536,5 @@ combos:
   k: (
 - p: [15, 16]
   k: )
+- p: [30, 29]
+  k: Gui+$$mdi:keyboard-space$$
