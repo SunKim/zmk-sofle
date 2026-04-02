@@ -159,6 +159,11 @@
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <15 16>;
         };
+
+        COMBO_LANG_CHANGE {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <30 29>;
+        };
     };
 
     macros {
