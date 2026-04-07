@@ -535,8 +535,10 @@ combos:
 - p: [15, 16]
   k: )
 - p: [30, 29]
-  k: LANG1
+  k: Gui+$$mdi:keyboard-space$$
 - p: [28, 29]
   k: KP MINUS
 - p: [28, 27]
   k: KP PLUS
+- p: [57, 59]
+  k: $$mdi:progress-download$$
