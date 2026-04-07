@@ -156,18 +156,18 @@
         };
 
         COMBO_LANG_CHANGE {
-            bindings = <&kp LANGUAGE_1>;
+            bindings = <&kp LANG1>;
             key-positions = <30 29>;
         };
 
         COMBO_MINUS {
             bindings = <&kp KP_MINUS>;
-            key-positions = <27 28>;
+            key-positions = <28 29>;
         };
 
         COMBO_PLUS {
             bindings = <&kp KP_PLUS>;
-            key-positions = <28 29>;
+            key-positions = <28 27>;
         };
     };
 
