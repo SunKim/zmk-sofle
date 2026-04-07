@@ -523,8 +523,6 @@ layers:
 combos:
 - p: [18, 31, 44]
   k: '&PARENTHESIS'
-- p: [27, 30, 28]
-  k: Gui+Sft+S
 - p: [27, 28, 29]
   k: '&sql_select'
   l: [ALPHA]
@@ -537,4 +535,8 @@ combos:
 - p: [15, 16]
   k: )
 - p: [30, 29]
-  k: Gui+$$mdi:keyboard-space$$
+  k: LANGUAGE 1
+- p: [27, 28]
+  k: KP MINUS
+- p: [28, 29]
+  k: KP PLUS
