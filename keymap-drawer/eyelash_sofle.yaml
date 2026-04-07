@@ -535,8 +535,8 @@ combos:
 - p: [15, 16]
   k: )
 - p: [30, 29]
-  k: LANGUAGE 1
-- p: [27, 28]
-  k: KP MINUS
+  k: LANG1
 - p: [28, 29]
+  k: KP MINUS
+- p: [28, 27]
   k: KP PLUS
