@@ -129,11 +129,6 @@
             key-positions = <18 31 44>;
         };
 
-        COMBO_SCREENSHOT {
-            bindings = <&kp LG(LS(S))>;
-            key-positions = <27 30 28>;
-        };
-
         COMBO_SQL_SELECT {
             bindings = <&sql_select>;
             key-positions = <27 28 29>;
@@ -161,8 +156,18 @@
         };
 
         COMBO_LANG_CHANGE {
-            bindings = <&kp LG(SPACE)>;
+            bindings = <&kp LANGUAGE_1>;
             key-positions = <30 29>;
+        };
+
+        COMBO_MINUS {
+            bindings = <&kp KP_MINUS>;
+            key-positions = <27 28>;
+        };
+
+        COMBO_PLUS {
+            bindings = <&kp KP_PLUS>;
+            key-positions = <28 29>;
         };
     };
 
@@ -174,10 +179,10 @@
             label = "PARENTHESIS";
         };
 
-        sql_select: sql_select {
+        SQL_SELECT: SQL_SELECT {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp S &kp E &kp L &kp E &kp C &kp T &kp SPACE &kp STAR &kp RET &kp F &kp R &kp O &kp M &kp SPACE &kp RET &kp W &kp H &kp E &kp R &kp E &kp SPACE &kp SQT &kp N1 &kp SQT &kp SPACE &kp EQUAL &kp SPACE &kp SQT &kp N1 &kp SQT &kp RET &kp L &kp I &kp M &kp I &kp T &kp SPACE &kp N1 &kp N0 &kp N0 &kp RET &kp SEMI &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp RIGHT_ARROW &kp RIGHT_ARROW &kp RIGHT_ARROW &kp RIGHT_ARROW>;
+            bindings = <&none &kp S &kp E &kp L &kp E &kp C &kp T &kp SPACE &kp STAR &kp RET &kp F &kp R &kp O &kp M &kp SPACE &kp RET &kp W &kp H &kp E &kp R &kp E &kp SPACE &kp N1 &kp EQUAL &kp N1 &kp RET &kp O &kp R &kp D &kp E &kp R &kp SPACE &kp B &kp Y &kp SPACE &kp I &kp D &kp X &kp SPACE &kp D &kp E &kp S &kp C &kp RET &kp L &kp I &kp M &kp I &kp T &kp SPACE &kp N1 &kp N0 &kp N0 &kp RET &kp SEMI>;
             label = "SQL_SELECT";
         };
     };
