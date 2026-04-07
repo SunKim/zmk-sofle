@@ -524,7 +524,7 @@ combos:
 - p: [18, 31, 44]
   k: '&PARENTHESIS'
 - p: [27, 28, 29]
-  k: '&sql_select'
+  k: '&SQL_SELECT'
   l: [ALPHA]
 - p: [17, 16]
   k: _
