@@ -156,7 +156,7 @@
         };
 
         COMBO_LANG_CHANGE {
-            bindings = <&kp LANG1>;
+            bindings = <&kp LG(SPACE)>;
             key-positions = <30 29>;
         };
 
@@ -168,6 +168,11 @@
         COMBO_PLUS {
             bindings = <&kp KP_PLUS>;
             key-positions = <28 27>;
+        };
+
+        COMBO_BOOTLOADER {
+            bindings = <&bootloader>;
+            key-positions = <57 59>;
         };
     };
 
