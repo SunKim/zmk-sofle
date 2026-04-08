@@ -147,12 +147,12 @@
 
         COMBO_LPAR {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <21 22>;
+            key-positions = <14 15>;
         };
 
         COMBO_RPAR {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <22 23>;
+            key-positions = <15 16>;
         };
 
         COMBO_LANG_CHANGE {
@@ -162,12 +162,12 @@
 
         COMBO_MINUS {
             bindings = <&kp KP_MINUS>;
-            key-positions = <15 16>;
+            key-positions = <21 22>;
         };
 
         COMBO_PLUS {
             bindings = <&kp KP_PLUS>;
-            key-positions = <14 15>;
+            key-positions = <22 23>;
         };
 
         COMBO_BOOTLOADER {
