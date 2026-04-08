@@ -137,7 +137,7 @@
 
         COMBO_UNDERSCORE {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <20 21>;
+            key-positions = <17 16>;
         };
 
         COMBO_EQUAL {
@@ -157,7 +157,7 @@
 
         COMBO_LANG_CHANGE {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <16 17>;
+            key-positions = <29 30>;
         };
 
         COMBO_MINUS {
