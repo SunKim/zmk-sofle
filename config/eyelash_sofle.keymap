@@ -137,7 +137,7 @@
 
         COMBO_UNDERSCORE {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <17 16>;
+            key-positions = <20 21>;
         };
 
         COMBO_EQUAL {
@@ -147,27 +147,27 @@
 
         COMBO_LPAR {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <14 15>;
+            key-positions = <21 22>;
         };
 
         COMBO_RPAR {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <15 16>;
+            key-positions = <22 23>;
         };
 
         COMBO_LANG_CHANGE {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <30 29>;
+            key-positions = <16 17>;
         };
 
         COMBO_MINUS {
             bindings = <&kp KP_MINUS>;
-            key-positions = <28 29>;
+            key-positions = <15 16>;
         };
 
         COMBO_PLUS {
             bindings = <&kp KP_PLUS>;
-            key-positions = <28 27>;
+            key-positions = <14 15>;
         };
 
         COMBO_BOOTLOADER {
